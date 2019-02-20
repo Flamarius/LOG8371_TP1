@@ -54,18 +54,18 @@ public class AllTests extends WekaTestSuite {
     // suite.addTest(OptionHandlersTest.suite());
 
     // converters
-    suite.addTest(weka.core.converters.AllTests.suite());
+    //suite.addTest(weka.core.converters.AllTests.suite());
 
     // neighboursearch
-    suite.addTest(weka.core.neighboursearch.AllTests.suite());
+    //suite.addTest(weka.core.neighboursearch.AllTests.suite());
 
     // tokenizers
-    suite.addTest(weka.core.tokenizers.AllTests.suite());
+    //suite.addTest(weka.core.tokenizers.AllTests.suite());
 
-    suite
-      .addTestSuite(weka.core.expressionlanguage.ExpressionLanguageTest.class);
+    //suite
+      //.addTestSuite(weka.core.expressionlanguage.ExpressionLanguageTest.class);
 
-    suite.addTestSuite(weka.core.DictionaryBuilderTest.class);
+    //suite.addTestSuite(weka.core.DictionaryBuilderTest.class);
 
     return suite;
   }
