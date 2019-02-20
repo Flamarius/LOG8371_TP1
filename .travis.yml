@@ -1,1 +1,4 @@
-language:java
+language: java
+script:
+- cd weka-3.8/weka
+- mvn test -B

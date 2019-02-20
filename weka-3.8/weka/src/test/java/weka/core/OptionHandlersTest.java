@@ -63,6 +63,14 @@ public class OptionHandlersTest extends TestCase {
       m_Classname = classname;
     }
 
+    /* Added by students to make tests pass */
+    public OptionHandlerTest(String name) {
+      super(name);
+    }
+
+    public OptionHandlerTest() {}
+    /*----------------------------------------*/
+
     /**
      * returns the classname this test is for
      * 
